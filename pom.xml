@@ -12,13 +12,13 @@
 			<artifactId>selenium-java</artifactId>
 			<version>3.141.59</version>
 		</dependency>
-		<dependency>
+<!-- 		<dependency>
 			<groupId>com.sun</groupId>
 			<artifactId>tools</artifactId>
 			<version>1.6</version>
 			<scope>system</scope>
 			<systemPath>C:\Program Files\Java\jdk1.8.0_171\lib\tools.jar</systemPath>
-		</dependency>
+		</dependency> -->
 		<dependency>
 			<groupId>io.cucumber</groupId>
 			<artifactId>cucumber-junit</artifactId>
