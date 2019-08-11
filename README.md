@@ -11,7 +11,7 @@ Supports the following browsers - chrome, firefox, ie, headless and grid
 
 Under com.nsw.libraryFunctions, all selenium related functions are available
 
-Under com.nsw.testCases, Test cases are provided in a Feature file and have used data driven approach to pick the test data from the feature file
+Under com.nsw.testCases, Test cases are provided in a Feature file and have followed data driven approach to pick the test data from the feature file
 
 Test data can be changed or newly added in the feature file
 
