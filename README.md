@@ -17,7 +17,7 @@ Test data can be changed or newly added in the feature file
 
 Under com.nsw.testPages, all application related functions are available in the form of Page object model
 
-Under com.nsw.reports, Test report will be generated in the HTML Format
+Under com.nsw.reports, Test report will be generated in the HTML Format after each run
 
 # Execute test
 
@@ -27,4 +27,4 @@ To execute in cmd, navigate to the POM file directory and run the command as mvn
 
 Tests will run successfully and reports will be generated in its respective directory
 
-Tests are pushed into git repository and integrated with circle CI to inititate the test after each build
+Tests are pushed into git repository and integrated with circle CI to trigger the build after each commit
