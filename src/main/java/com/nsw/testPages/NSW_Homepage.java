@@ -12,7 +12,7 @@ public class NSW_Homepage extends LibraryFunctions {
 		try
 		{
 			// Initiate the browser and launch the application
-			startBrowser();
+			//startBrowser();
 		}
 		catch(Throwable e)
 		{
