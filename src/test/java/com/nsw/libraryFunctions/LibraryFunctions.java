@@ -217,7 +217,7 @@ public class LibraryFunctions {
 		{
 
 			Reader reader = new
-					FileReader("src/main/java/com/nsw/testData/TestData.json"); 
+					FileReader("src/test/java/com/nsw/testData/TestData.json"); 
 			JSONParser parser	  = new JSONParser(); 
 			JSONArray jsonArr = (JSONArray)parser.parse(reader);
 			for(Object obj : jsonArr)
@@ -240,7 +240,7 @@ public class LibraryFunctions {
 		try
 		{
 			prop = new Properties();
-			InputStream input = new FileInputStream("src/main/java/com/nsw/configuration/config.properties");
+			InputStream input = new FileInputStream("src/test/java/com/nsw/configuration/Config.properties");
 			prop.load(input);
 			browser = prop.getProperty("browser");
 			nodeUrl = prop.getProperty("nodeUrl");			
