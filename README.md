@@ -3,7 +3,7 @@ Assessment for UI Automation
 
 Automated the UI using BDD framework (i.e. CUCUMBER) with JAVA
 
-Framework folder structure is under src/main/java
+Framework folder structure is under src/test/java
 
 Under com.nsw.configuration, provide the configuration details such as Browser and node details
 
